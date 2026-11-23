@@ -10,7 +10,15 @@
 
 ## Информация по установке
 
--git clone 
+- git clone https://github.com/mikhalkevich/oop_laravel
+- cd oop_laravel
+- composer install
+- npm i
+- создать базу с именем shop
+- создать .env по примеру .env.examle
+- php artisan migrate
+- php artisan serve (сервер для php)
+- npm run dev
 
 ## Agentic Development
 
