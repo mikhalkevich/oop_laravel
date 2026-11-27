@@ -15,6 +15,7 @@ class BaseController extends Controller
     public function getUrl($url = null)
     {
         $obj = Maintext::where('url', $url)->first();
+        abort_if(!$obj, 403,'Page not found');
         return view('maintext', compact('obj'));
     }
 }

@@ -18,7 +18,7 @@
                     <a href="{{ asset('contacts') }}" class="px-3 border-r hover:bg-gray-100">
                         Контакты
                     </a>
-                    <a href="{{ asset('/') }}" class="px-3 border-r hover:bg-gray-100">
+                    <a href="{{ asset('/catalog') }}" class="px-3 border-r hover:bg-gray-100">
                         Каталог
                     </a>
                     <a href="{{ asset('/') }}" class="px-3 border-r hover:bg-gray-100">
